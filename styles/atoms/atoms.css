@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.form__input {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+.form__input--name {
+  color: blue;
+}
+.form__input--email {
+  color: red;
+}/*# sourceMappingURL=atoms.css.map */

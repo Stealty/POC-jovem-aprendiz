@@ -1,0 +1,50 @@
+// .color-red {
+//   color: var(--text-dark);
+// }
+
+// .color-blue {
+//   color: var(--text-dark-accent);
+// }
+
+// .color-gray {
+//   color: var(--text-dark-gray);
+// }
+
+// .color-purple {
+//   color: purple;
+// }
+
+// .background-red {
+//   background-color: red;
+// }
+
+// .background-blue {
+//   background-color: blue;
+// }
+
+// .background-gray {
+//   background-color: gray;
+// }
+
+// .background-purple {
+//   background-color: purple;
+// }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+
+  &__input {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+
+    &--name {
+      color: blue;
+    }
+
+    &--email {
+      color: red;
+    }
+  }
+}
