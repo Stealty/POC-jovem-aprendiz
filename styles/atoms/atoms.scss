@@ -30,21 +30,59 @@
 //   background-color: purple;
 // }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
+// .form {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100px;
 
-  &__input {
-    background-color: var(--primary-color);
-    border-radius: 10px;
+//   &__input {
+//     background-color: var(--primary-color);
+//     border-radius: 10px;
 
-    &--name {
-      color: blue;
-    }
+//     &--name {
+//       color: blue;
+//     }
 
-    &--email {
-      color: red;
-    }
+//     &--email {
+//       color: red;
+//     }
+//   }
+// }
+
+body{
+  font-family: 'Epilogue', sans-serif;
+}
+
+.header-title{
+  font-size: 1.5rem;   
+  font-weight: 700;
+}
+
+.header-navegationList{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.header-button{
+  font-size: 0.87rem;
+  font-weight: 400;
+}
+
+
+.header{
+  &__title{
+    font-size: 1.5rem;   
+    font-weight: 700;
+  }
+
+  &__navegationList{
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  &__button{
+    font-size: 0.87em;
+    font-weight: 400;
   }
 }
+
