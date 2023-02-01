@@ -1,50 +1,137 @@
-// .color-red {
-//   color: var(--text-dark);
+// .form {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100px;
+
+//   &__input {
+//     background-color: var(--primary-color);
+//     border-radius: 10px;
+
+//     &--name {
+//       color: blue;
+//     }
+
+//     &--email {
+//       color: red;
+//     }
+//   }
 // }
 
-// .color-blue {
-//   color: var(--text-dark-accent);
-// }
+body {
+  font-family: "Epilogue", sans-serif;
+}
 
-// .color-gray {
-//   color: var(--text-dark-gray);
-// }
+.header {
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 
-// .color-purple {
-//   color: purple;
-// }
+  &__navegation__ListItem {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 
-// .background-red {
-//   background-color: red;
-// }
-
-// .background-blue {
-//   background-color: blue;
-// }
-
-// .background-gray {
-//   background-color: gray;
-// }
-
-// .background-purple {
-//   background-color: purple;
-// }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-
-  &__input {
+  &__button {
+    font-size: 0.87rem;
+    font-weight: 400;
+    width: 8.62rem;
+    height: 3rem;
+    border: solid 1px var(--text-light);
+    color: var(--text-light);
     background-color: var(--primary-color);
-    border-radius: 10px;
+  }
+}
 
-    &--name {
-      color: blue;
-    }
+.main {
+  &__title {
+    font-size: 4.5rem;
+    font-weight: 800;
+  }
 
-    &--email {
-      color: red;
-    }
+  &__text {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  &__categories__listItem {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  &__image--categories {
+    width: 23, 12rem;
+    height: 26rem;
+  }
+
+  &__button {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 5.25rem;
+    height: 2.37rem;
+    color: var(--text-dark);
+  }
+
+  &__subtitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+
+  &__button-loadMore--edit {
+    font-size: 0.87rem;
+    font-weight: 900;
+    width: 10.62rem;
+    height: 3rem;
+    color: var(--text-dark);
+  }
+}
+
+.footer {
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+
+  &__menu {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark-accent);
+  }
+
+  &__menu__listItem {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark);
+  }
+
+  &__service {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark-accent);
+  }
+
+  &__service__listItem {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark);
+  }
+
+  &__textCopyright {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark-gray);
+  }
+
+  &__terms {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark);
+  }
+
+  &__privacy {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark);
   }
 }
