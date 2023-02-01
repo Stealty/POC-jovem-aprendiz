@@ -1,15 +1,97 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
+body {
+  font-family: "Epilogue", sans-serif;
 }
-.form__input {
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.header__navegation__ListItem {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.header__button {
+  font-size: 0.87rem;
+  font-weight: 400;
+  width: 8.62rem;
+  height: 3rem;
+  border: solid 1px var(--text-light);
+  color: var(--text-light);
   background-color: var(--primary-color);
-  border-radius: 10px;
 }
-.form__input--name {
-  color: blue;
+
+.main__title {
+  font-size: 4.5rem;
+  font-weight: 800;
 }
-.form__input--email {
-  color: red;
+.main__text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main__categories__listItem {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main__image--categories {
+  width: 23, 12rem;
+  height: 26rem;
+}
+.main__button {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 5.25rem;
+  height: 2.37rem;
+  color: var(--text-dark);
+}
+.main__subtitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.main__button-loadMore--edit {
+  font-size: 0.87rem;
+  font-weight: 900;
+  width: 10.62rem;
+  height: 3rem;
+  color: var(--text-dark);
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+.footer__menu {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark-accent);
+}
+.footer__menu__listItem {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+.footer__service {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark-accent);
+}
+.footer__service__listItem {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+.footer__textCopyright {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark-gray);
+}
+.footer__terms {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark);
+}
+.footer__privacy {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-dark);
 }/*# sourceMappingURL=atoms.css.map */
