@@ -1,1 +1,173 @@
-/*# sourceMappingURL=molecules.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header__div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.header__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.header__listItem {
+  margin: 0 3rem;
+  text-decoration: none;
+}
+
+.main__title {
+  text-align: center;
+  padding-top: 8%;
+  margin: 0 0 3rem 0;
+  border: 0;
+}
+.main__text {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  max-width: 500px;
+}
+.main__categorieslist {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  border: 0;
+  justify-content: center;
+}
+.main__listItem {
+  margin: 5rem 2.5rem;
+  padding: 0 auto;
+}
+.main__image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  grid-gap: 1.5rem;
+  position: relative;
+}
+.main__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  margin-left: 3rem;
+  background-color: var(--text-light);
+  border: 0;
+}
+.main__subtitle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6rem;
+  margin-left: 3rem;
+  border: 0;
+}
+.main__buttonLoadMore {
+  text-align: center;
+}
+.main__loadMoreEdit {
+  text-align: center;
+  background-color: var(--text-light);
+  border-radius: 0.5rem;
+  border: 0;
+  margin: 5rem 0 5rem 0;
+  box-shadow: 1px 1px 3px rgba(102, 100, 100, 0.719);
+}
+
+.footer__divEdit {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 8rem;
+}
+.footer__title {
+  margin-bottom: 5rem;
+}
+.footer__menuList {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__listItemM {
+  padding-bottom: 0.7rem;
+}
+.footer__serviceList {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__listItemS {
+  padding-bottom: 0.7rem;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #f3d1bf;
+  margin: 0 auto;
+  width: 75%;
+  height: 5rem;
+}
+.footer__TermsPolicy {
+  display: flex;
+  align-items: center;
+}
+.footer__terms {
+  padding-right: 3rem;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1160px) {
+  .main__image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 1.5rem;
+    position: relative;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main__categorieslist {
+    display: none;
+  }
+  .main__image {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+    position: relative;
+  }
+  .header__div {
+    width: 100%;
+  }
+  .header__list {
+    display: none;
+  }
+  .footer__divEdit {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__copyright {
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+  .footer__TermsPolicy {
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=molecules.css.map */
