@@ -1,1 +1,17 @@
-/*# sourceMappingURL=organisms.css.map */
+body {
+  background-color: #fdf0e9;
+  height: 100%;
+}
+
+.header__div {
+  background-color: var(--primary-color);
+  height: 5rem;
+  width: 100%;
+}
+
+.main__titleColor {
+  background-color: var(--primary-color);
+}
+.main__titleColor2 {
+  background-color: #fdf0e9;
+}/*# sourceMappingURL=organisms.css.map */
