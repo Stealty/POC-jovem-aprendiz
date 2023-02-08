@@ -1,83 +1,72 @@
-// .form {
-//   display: flex;
-//   flex-direction: column;
-//   width: 100px;
-
-//   &__input {
-//     background-color: var(--primary-color);
-//     border-radius: 10px;
-
-//     &--name {
-//       color: blue;
-//     }
-
-//     &--email {
-//       color: red;
-//     }
-//   }
-// }
-
 body {
   font-family: "Epilogue", sans-serif;
 }
 
 .header {
-  &__title {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  &__navegation__ListItem {
-    font-size: 1rem;
+  &__listItem {
+    font-size: 0.95rem;
     font-weight: 400;
+    color: var(--text-light);
   }
 
   &__button {
     font-size: 0.87rem;
-    font-weight: 400;
-    width: 8.62rem;
-    height: 3rem;
+    font-weight: 700;
+    width: 7.5rem;
+    height: 2.5rem;
     border: solid 1px var(--text-light);
     color: var(--text-light);
     background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-transform: uppercase;
   }
 }
 
 .main {
   &__title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 800;
+    color: var(--text-light);
   }
 
   &__text {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  &__text1 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  &__listItem {
+    font-size: 0.95rem;
     font-weight: 400;
   }
 
-  &__categories__listItem {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  &__image--categories {
-    width: 23, 12rem;
-    height: 26rem;
+  &__blockImage {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   &__button {
     font-size: 1rem;
     font-weight: 400;
-    width: 5.25rem;
+    width: 6.25rem;
     height: 2.37rem;
     color: var(--text-dark);
+    border-radius: 1.2rem;
   }
 
   &__subtitle {
     font-size: 2.5rem;
     font-weight: 800;
+    color: var(--text-light);
   }
 
-  &__button-loadMore--edit {
+  &__loadMoreEdit {
     font-size: 0.87rem;
     font-weight: 900;
     width: 10.62rem;
@@ -96,11 +85,12 @@ body {
   &__menu {
     font-size: 1rem;
     font-weight: 400;
+    text-transform: uppercase;
     color: var(--text-dark-accent);
   }
 
-  &__menu__listItem {
-    font-size: 1rem;
+  &__listItemM {
+    font-size: 0.95rem;
     font-weight: 400;
     color: var(--text-dark);
   }
@@ -108,11 +98,12 @@ body {
   &__service {
     font-size: 1rem;
     font-weight: 400;
+    text-transform: uppercase;
     color: var(--text-dark-accent);
   }
 
-  &__service__listItem {
-    font-size: 1rem;
+  &__listItemS {
+    font-size: 0.95rem;
     font-weight: 400;
     color: var(--text-dark);
   }
